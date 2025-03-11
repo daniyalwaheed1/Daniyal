@@ -60,6 +60,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 60px;
     position: relative;
+    text-align: justify;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     animation: slideIn 1s ease-out;
 }

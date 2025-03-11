@@ -3,6 +3,7 @@
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   position: relative;
   overflow: hidden;
+  text-align: justify;
 }
 
 .services-section::before {
@@ -16,7 +17,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 700px;
   margin: 0 auto;
   position: relative;
 }
@@ -64,7 +65,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 40px;
-  padding: 20px;
+  padding: 5px;
 }
 
 .service-card {
@@ -115,7 +116,7 @@
 }
 
 .card-content {
-  padding: 30px;
+  padding: 20px;
   position: relative;
 }
 
